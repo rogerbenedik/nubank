@@ -2,13 +2,10 @@
 *::after *::before {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-@import "partials/colors";
-@import "partials/layout";
-@import "partials/typography";
-@import "partials/button";
-@import "partials/spacing";
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,11 +22,8 @@ svg {
   display: block;
   width: 100%;
 }
+
 .border {
   border: 1px solid red;
 }
-
-@import "partials/menu";
-@import "partials/swiper";
-@import "partials/footer";
-@import "partials/animation";
+/*# sourceMappingURL=style.css.map */
