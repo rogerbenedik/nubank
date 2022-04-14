@@ -18,6 +18,12 @@ body {
   background-color: #1a1a1a;
 }
 
+@media screen and (max-width: 1140px) and (min-width: 960px) {
+  body {
+    background-color: green;
+  }
+}
+
 svg {
   display: block;
   width: 100%;
