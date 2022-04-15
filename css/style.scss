@@ -18,10 +18,7 @@ body {
   height: 100vh;
   position: relative;
   scroll-behavior: smooth;
-  background-color: #1a1a1a;
-  @include responsive(m){
-    background-color: green;
-  }
+  background-color: $white-dark;
 }
 
 svg {

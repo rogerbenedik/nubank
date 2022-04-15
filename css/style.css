@@ -15,13 +15,7 @@ body {
   height: 100vh;
   position: relative;
   scroll-behavior: smooth;
-  background-color: #1a1a1a;
-}
-
-@media screen and (max-width: 1140px) and (min-width: 960px) {
-  body {
-    background-color: green;
-  }
+  background-color: #edeaef;
 }
 
 svg {
