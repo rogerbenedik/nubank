@@ -126,6 +126,38 @@ strong {
   text-align: center;
 }
 
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  text-decoration: none;
+  color: #232224;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+.btn {
+  background: linear-gradient(220.94deg, #82269e 14.43%, #82269e 85.28%);
+  border-radius: 16px;
+  padding: 12px 32px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  color: #fefbff;
+  -webkit-box-shadow: 0px 17px 17px rgba(169, 80, 196, 0.13), 0px 5.125px 5.125px rgba(169, 80, 196, 0.065), 0px 2.12866px 2.12866px rgba(169, 80, 196, 0.065), 0px 0.7699px 0.7699px rgba(169, 80, 196, 0.065);
+          box-shadow: 0px 17px 17px rgba(169, 80, 196, 0.13), 0px 5.125px 5.125px rgba(169, 80, 196, 0.065), 0px 2.12866px 2.12866px rgba(169, 80, 196, 0.065), 0px 0.7699px 0.7699px rgba(169, 80, 196, 0.065);
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0px 17px 31px rgba(169, 80, 196, 0.27), 0px 5.125px 9.34559px rgba(169, 80, 196, 0.175929), 0px 2.12886px 3.88168px rgba(169, 80, 196, 0.135), 0px 0.7699px 1.40393px rgba(169, 80, 196, 0.094071);
+          box-shadow: 0px 17px 31px rgba(169, 80, 196, 0.27), 0px 5.125px 9.34559px rgba(169, 80, 196, 0.175929), 0px 2.12886px 3.88168px rgba(169, 80, 196, 0.135), 0px 0.7699px 1.40393px rgba(169, 80, 196, 0.094071);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -145,5 +177,22 @@ svg {
 
 .border {
   border: 1px solid red;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: fixed;
+  z-index: 999;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.active-header {
+  background-color: #f7f2fa;
+  -webkit-box-shadow: 0px 51px 80px rgba(169, 80, 196, 0.08), 0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0px 2.3069px 3.62304px rgba(169, 80, 196, 0.278729), 0px 6.38599px 10.01172px rgba(169, 80, 196, 0.04), 0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+          box-shadow: 0px 51px 80px rgba(169, 80, 196, 0.08), 0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0px 2.3069px 3.62304px rgba(169, 80, 196, 0.278729), 0px 6.38599px 10.01172px rgba(169, 80, 196, 0.04), 0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
 }
 /*# sourceMappingURL=style.css.map */
