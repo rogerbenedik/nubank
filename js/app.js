@@ -41,8 +41,7 @@ function RemoveDropdown() {
   dropdownMenu1.classList.remove("active-dropdown-menu");
   dropdownMenu2.classList.remove("active-dropdown-menu");
   dropdownMenu3.classList.remove("active-dropdown-menu");
- 
-}  
+}
 
 menuItem1.addEventListener("click", ShowDropdown1);
 menuItem2.addEventListener("click", ShowDropdown2);
@@ -51,3 +50,17 @@ menuItem3.addEventListener("click", ShowDropdown3);
 dropdownMenu1.addEventListener("mouseleave", RemoveDropdown);
 dropdownMenu2.addEventListener("mouseleave", RemoveDropdown);
 dropdownMenu3.addEventListener("mouseleave", RemoveDropdown);
+
+//Menu Mobile
+
+const showMenu = (toggleId, navId) => {
+  const toggle = document.getElementById("toggleId");
+  const nav = document.getElementById("navId");
+  if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("active-menu-mobile");
+      toggle.classList.toggle("active-bx");
+    });
+  }
+};
+showMenu("bx", "menu-mobile");
