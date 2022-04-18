@@ -54,8 +54,8 @@ dropdownMenu3.addEventListener("mouseleave", RemoveDropdown);
 //Menu Mobile
 
 const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById("toggleId");
-  const nav = document.getElementById("navId");
+  const toggle = document.getElementById(toggleId);
+  const nav = document.getElementById(navId);
   if (toggle && nav) {
     toggle.addEventListener("click", () => {
       nav.classList.toggle("active-menu-mobile");
